@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortsSync - Short Video Automation & Publishing Tool</title>
+  <style>
+    :root {
+      --primary: #fe2c55;
+      --primary-dark: #e0264b;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    header {
+      padding: 40px 0 20px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: rgba(254, 44, 85, 0.15);
+      color: var(--primary);
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .lead {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto 36px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin: 48px 0;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .links-section {
+      text-align: center;
+      margin: 60px 0 40px;
+      padding: 30px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+    .links-section h2 {
+      margin-bottom: 16px;
+    }
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: var(--primary-dark);
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: #64748b;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    footer a {
+      color: var(--text-muted);
+      text-decoration: underline;
+      margin: 0 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">ShortsSync Suite</div>
+      <h1>Short Video Publishing & Syncing Solution</h1>
+      <p class="lead">
+        An intelligent workflow automation tool that helps digital creators manage, prepare, and seamlessly publish video content directly to TikTok.
+      </p>
+    </header>
+
+    <div class="features">
+      <div class="card">
+        <h3>🚀 Direct TikTok Publishing</h3>
+        <p>Connect your TikTok profile via secure official TikTok OAuth. Upload, schedule, and publish video content directly without manual transfers.</p>
+      </div>
+      <div class="card">
+        <h3>🔒 Local & Secure</h3>
+        <p>All authentication tokens are encrypted and managed directly on your personal environment using secure keychain storage. No private data is sold or shared.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Video Enhancement</h3>
+        <p>Streamlined workflow for processing subtitles, audio synchronization, and visual optimizations before sharing with your audience.</p>
+      </div>
+    </div>
+
+    <div class="links-section">
+      <h2>Legal & Policy Documentation</h2>
+      <p style="color: var(--text-muted); margin-bottom: 24px;">Read our policies regarding user privacy, data security, and terms of use.</p>
+      <div class="button-group">
+        <a href="terms.html" class="btn btn-secondary">Terms of Service</a>
+        <a href="privacy.html" class="btn btn-primary">Privacy Policy</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 ShortsSync App. All rights reserved.</p>
+      <p style="margin-top: 8px;">
+        <a href="terms.html">Terms of Service</a> &bull;
+        <a href="privacy.html">Privacy Policy</a> &bull;
+        <a href="mailto:support@shortssync.app">Contact Support</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
